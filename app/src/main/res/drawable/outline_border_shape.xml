@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set the background color of the view -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Set the border stroke width, color, and corner radius -->
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/grey" />
+
+</shape>
