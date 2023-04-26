@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/appointment_row"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginVertical="5dp"
-    android:background="@drawable/appointment_bg_shape"
-    android:orientation="vertical"
-    android:padding="15dp">
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/voilet"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="9:40 AM-10:20AM"
+        android:text=""
         android:textStyle="bold" />
 
     <TextView
@@ -20,12 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="5dp"
-        android:text="Appointment name" />
+        android:text="" />
 
     <TextView
         android:id="@+id/appointment_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Appointment description" />
+        android:text="" />
 
 </LinearLayout>

@@ -28,11 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/timer_recyclerview"
-            android:layout_width="wrap_content"
-            tools:listitem="@layout/timer_each_row"
-            android:layout_height="match_parent"/>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,7 +53,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    tools:listitem="@layout/appointment_each_row" />
+                     />
 
             </androidx.core.widget.NestedScrollView>
         </LinearLayout>
